@@ -618,7 +618,7 @@ async def main():
 
         message = variable_input_message.get()
         variable_input_message.set(constants.EMPTY_STRING)
-
+        arguments = {}
         arguments[keys.MESSAGE] = message
 
         await main_client.broadcast_message(**arguments)
