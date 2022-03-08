@@ -170,7 +170,7 @@ If the user does not send any packet after a given amount of time (currently, th
 +-------+------------------------------------------------------+
 ```
 
-### PACKET TYPE #19: FILES REQUEST (CLIENT -> SERVER)
+### PACKET TYPE #15: FILES REQUEST (CLIENT -> SERVER)
 
 ```
 +-------+------------------------------------------------------+
@@ -181,7 +181,7 @@ If the user does not send any packet after a given amount of time (currently, th
 +-------+------------------------------------------------------+
 ```
 
-### PACKET TYPE #20: FILES RESPONSE (SERVER -> CLIENT)
+### PACKET TYPE #16: FILES RESPONSE (SERVER -> CLIENT)
 
 ```
 +-------+------------------------------------------------------+
@@ -193,7 +193,7 @@ If the user does not send any packet after a given amount of time (currently, th
 +-------+------------------------------------------------------+
 ```
 
-### PACKET TYPE #21: FILE DATA REQUEST (CLIENT -> SERVER)
+### PACKET TYPE #17: FILE DATA REQUEST (CLIENT -> SERVER)
 
 ```
 +-------+------------------------------------------------------+
@@ -205,7 +205,7 @@ If the user does not send any packet after a given amount of time (currently, th
 +-------+------------------------------------------------------+
 ```
 
-### PACKET TYPE #22: FILE DATA RESPONSE (SERVER -> CLIENT)
+### PACKET TYPE #18: FILE DATA RESPONSE (SERVER -> CLIENT)
 
 ```
 +-------+------------------------------------------------------+
@@ -219,7 +219,7 @@ If the user does not send any packet after a given amount of time (currently, th
 +-------+------------------------------------------------------+
 ```
 
-### PACKET TYPE #15: FILE DOWNLOAD REQUEST (CLIENT -> SERVER)
+### PACKET TYPE #19: FILE DOWNLOAD REQUEST (CLIENT -> SERVER)
 
 ```
 +-------+------------------------------------------------------+
@@ -231,7 +231,7 @@ If the user does not send any packet after a given amount of time (currently, th
 +-------+------------------------------------------------------+
 ```
 
-### PACKET TYPE #16: FILE DOWNLOAD RESPONSE (SERVER -> CLIENT)
+### PACKET TYPE #20: FILE DOWNLOAD RESPONSE (SERVER -> CLIENT)
 
 ```
 +-------+------------------------------------------------------+
@@ -243,7 +243,7 @@ If the user does not send any packet after a given amount of time (currently, th
 +-------+------------------------------------------------------+
 ```
 
-### PACKET TYPE #17: DOWNLOAD CHUNK REQUEST (CLIENT -> SERVER)
+### PACKET TYPE #20: DOWNLOAD CHUNK REQUEST (CLIENT -> SERVER)
 
 ```
 +-------+------------------------------------------------------+
@@ -255,7 +255,7 @@ If the user does not send any packet after a given amount of time (currently, th
 +-------+------------------------------------------------------+
 ```
 
-### PACKET TYPE #18: DOWNLOAD CHUNK RESPONSE (SERVER -> CLIENT)
+### PACKET TYPE #22: DOWNLOAD CHUNK RESPONSE (SERVER -> CLIENT)
 
 ```
 +-------+------------------------------------------------------+
@@ -269,7 +269,7 @@ If the user does not send any packet after a given amount of time (currently, th
 +-------+------------------------------------------------------+
 ```
 
-### PACKET TYPE #15: FILE UPLOAD REQUEST (CLIENT -> SERVER)
+### PACKET TYPE #23: FILE UPLOAD REQUEST (CLIENT -> SERVER)
 
 ```
 +-------+------------------------------------------------------+
@@ -283,7 +283,7 @@ If the user does not send any packet after a given amount of time (currently, th
 +-------+------------------------------------------------------+
 ```
 
-### PACKET TYPE #16: FILE UPLOAD RESPONSE (SERVER -> CLIENT)
+### PACKET TYPE #24: FILE UPLOAD RESPONSE (SERVER -> CLIENT)
 
 ```
 +-------+------------------------------------------------------+
@@ -295,7 +295,7 @@ If the user does not send any packet after a given amount of time (currently, th
 +-------+------------------------------------------------------+
 ```
 
-### PACKET TYPE #17: UPLOAD CHUNK REQUEST (CLIENT -> SERVER)
+### PACKET TYPE #25: UPLOAD CHUNK REQUEST (CLIENT -> SERVER)
 
 ```
 +-------+------------------------------------------------------+
@@ -309,7 +309,7 @@ If the user does not send any packet after a given amount of time (currently, th
 +-------+------------------------------------------------------+
 ```
 
-### PACKET TYPE #18: UPLOAD CHUNK RESPONSE (SERVER -> CLIENT)
+### PACKET TYPE #26: UPLOAD CHUNK RESPONSE (SERVER -> CLIENT)
 
 ```
 +-------+------------------------------------------------------+
