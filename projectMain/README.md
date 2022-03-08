@@ -243,7 +243,7 @@ If the user does not send any packet after a given amount of time (currently, th
 +-------+------------------------------------------------------+
 ```
 
-### PACKET TYPE #20: DOWNLOAD CHUNK REQUEST (CLIENT -> SERVER)
+### PACKET TYPE #21: DOWNLOAD CHUNK REQUEST (CLIENT -> SERVER)
 
 ```
 +-------+------------------------------------------------------+
